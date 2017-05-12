@@ -3,5 +3,12 @@
   <%= react_component("Item1") %>
 </div>
 
+<hr>
+
+<div>
+  my name is Item2
+  <%= react_component("folder/Item2", {name: "kakas"}) %>
+</div>
+
 <!-- also you can place this in layout/application.html.erb -->
 <%= javascript_pack_tag 'application' %>
